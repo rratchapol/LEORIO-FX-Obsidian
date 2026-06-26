@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+  <defs>
+    <style>
+      .bg{fill:#fbfcfe}
+      .grid{stroke:#e6e8ef;stroke-width:1}
+      .axis{stroke:#9aa3b2;stroke-width:1.4}
+      .price{fill:none;stroke:#1f2937;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .green{stroke:#0f9f6e;fill:none}
+      .red{stroke:#d64545;fill:none}
+      .greenFill{fill:#dff7eb;stroke:#0f9f6e}
+      .redFill{fill:#fde5e5;stroke:#d64545}
+      .blueFill{fill:#e8f1ff;stroke:#2563eb}
+      .yellowFill{fill:#fff4c7;stroke:#d99a00}
+      .label{font-family:Arial, sans-serif;font-size:20px;fill:#111827}
+      .small{font-family:Arial, sans-serif;font-size:16px;fill:#374151}
+      .tiny{font-family:Arial, sans-serif;font-size:13px;fill:#4b5563}
+      .muted{font-family:Arial, sans-serif;font-size:14px;fill:#6b7280}
+      .arrow{stroke:#111827;stroke-width:2.2;fill:none;marker-end:url(#arrow)}
+      .dash{stroke-dasharray:8 7}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111827"/>
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="980" height="560" rx="18"/>
+  <text class="label" x="34" y="42">Breakout Retest Continuation</text>
+  <line class="grid" x1="60" x2="935" y1="100" y2="100"/>
+<line class="grid" x1="60" x2="935" y1="150" y2="150"/>
+<line class="grid" x1="60" x2="935" y1="200" y2="200"/>
+<line class="grid" x1="60" x2="935" y1="250" y2="250"/>
+<line class="grid" x1="60" x2="935" y1="300" y2="300"/>
+<line class="grid" x1="60" x2="935" y1="350" y2="350"/>
+<line class="grid" x1="60" x2="935" y1="400" y2="400"/>
+<line class="grid" x1="60" x2="935" y1="450" y2="450"/>
+  <line class="grid" x1="80" x2="80" y1="80" y2="505"/>
+<line class="grid" x1="180" x2="180" y1="80" y2="505"/>
+<line class="grid" x1="280" x2="280" y1="80" y2="505"/>
+<line class="grid" x1="380" x2="380" y1="80" y2="505"/>
+<line class="grid" x1="480" x2="480" y1="80" y2="505"/>
+<line class="grid" x1="580" x2="580" y1="80" y2="505"/>
+<line class="grid" x1="680" x2="680" y1="80" y2="505"/>
+<line class="grid" x1="780" x2="780" y1="80" y2="505"/>
+<line class="grid" x1="880" x2="880" y1="80" y2="505"/>
+  <line class="axis" x1="60" y1="505" x2="935" y2="505"/>
+  <line class="axis" x1="60" y1="80" x2="60" y2="505"/>
+  
+  <line class="red dash" x1="120" y1="250" x2="815" y2="250"/>
+  <text class="small" x="130" y="238">Resistance becomes retest zone</text>
+  <polyline class="green price" points="110,365 195,315 280,340 365,295 450,315 535,235 620,170 700,245 795,190 890,130"/>
+  <circle cx="700" cy="245" r="11" fill="#dff7eb" stroke="#0f9f6e" stroke-width="3"/>
+  <text class="small" x="720" y="267">Retest + higher low</text>
+  <line class="red dash" x1="665" y1="305" x2="805" y2="305"/>
+  <text class="small" x="680" y="330">SL below retest</text>
+  <path class="arrow" d="M705,240 C735,210 765,195 795,190"/>
+  <text class="tiny" x="118" y="430">Avoid chasing. Good entry is close to retest, not after price already runs away.</text>
+
+</svg>
